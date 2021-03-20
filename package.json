@@ -1,0 +1,19 @@
+{
+  "name": "psiva-bot",
+  "version": "1.0.0",
+  "description": "A discord bot to serve google drive files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "prettier --print-width 120 --jsx-bracket-same-line --no-bracket-spacing --single-quote --tab-width 4 --use-tabs --write \"**/*.js\""
+  },
+  "author": "Sidharth Shambu",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
