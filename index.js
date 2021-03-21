@@ -6,9 +6,9 @@ const client = new Discord.Client();
 
 client.once('ready', async () => {
 	try {
-		await gdrive.gdriveInit()
-	} catch(e) {
-		console.log(`Gdrive Error: ${e}`)
+		await gdrive.gdriveInit();
+	} catch (e) {
+		console.log(`Gdrive Error: ${e}`);
 	}
 	console.log('Ready!');
 });
@@ -19,8 +19,8 @@ client.on('message', async (message) => {
 	} else if (message.content === `${prefix} drive`) {
 		try {
 			let res = await gdrive.listFiles();
-			message.channel.send(JSON.stringify(res.data))
-		} catch(e) {
+			message.channel.send(JSON.stringify(res.data));
+		} catch (e) {
 			console.log(e);
 		}
 	}
