@@ -46,7 +46,6 @@ async function searchFolder(query) {
 
 async function parseFiles(files) {
 	if (files.length == 0) return 'Nothing found';
-	console.log(files);
 	let parsedFiles = '';
 	files.forEach((file) => {
 		parsedFiles += `${file.name} - ${file.webViewLink}\n`;
