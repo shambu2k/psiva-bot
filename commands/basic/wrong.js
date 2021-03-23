@@ -22,6 +22,10 @@ module.exports = {
 					name: '!psiva list <drive-folder-link>',
 					value:
 						'Replace <drive-folder-link> with the google drive folder link you want to list the contents of',
+				},
+				{
+					name: '!psiva recording <course-name-here>',
+					value: 'Replace <course-name-here> with the course name to get its recordings'
 				}
 			)
 			.setTimestamp();

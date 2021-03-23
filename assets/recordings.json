@@ -1,0 +1,104 @@
+[
+    {
+        "sub": "Process dynamics and control",
+        "short": "PDC",
+        "sem": 6,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaa1oYP6q08hYPFzXQupfE0e"
+    },
+    {
+        "sub": "Equilibrium Staged Operations",
+        "short": "ESO",
+        "sem": 6,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaaGGJoC6z8fvfhdcKIqCamu"
+    },
+    {
+        "sub": "Operating Systems MI",
+        "short": "OS",
+        "sem": 6,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaYrGJxTeVoOMt8kAqQXhRG1"
+    },
+    {
+        "sub": "Chemical Reaction Engineering 2",
+        "short": "CRE2",
+        "sem": 6,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaaySa0Wh7uEYkIsAMMqv7tz"
+    },
+    {
+        "sub": "Optimization techniques OE",
+        "short": "Opti",
+        "sem": 6,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaYr7HqjZkW0dm3OBYrabzof"
+    },
+    {
+        "sub": "Industrial Economics",
+        "short": "IEFT HSIR",
+        "sem": 6,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdabzN6tt2d6x0zeVUOhCvMR5"
+    },
+    {
+        "sub": "Pinch Analysis and Heat Exchanger Network Design HO",
+        "short": "Pinch Analysis and HEND",
+        "sem": 6,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaaru5EQmiN-S6cIeDHfuQQy"
+    },
+    {
+        "sub": "Electrochemical Reaction Engineering PE",
+        "short": "ECRE",
+        "sem": 6,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaYup4XbBl9-j8QH1Al-oW2Z"
+    },
+    {
+        "sub": "Cryogenic Engineering OE",
+        "short": "Cryo",
+        "sem": 5,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaZzOO3kzSdvUONvHhUlXwch"
+    },
+    {
+        "sub": "Petroleum PE",
+        "short": "Petro",
+        "sem": 5,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaZ8R54YUopQdvPbTNQZfTeI"
+    },
+    {
+        "sub": "Mass Transfer",
+        "short": "MT",
+        "sem": 5,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaYavJNDPAnrrwr_4KmAaAg8"
+    },
+    {
+        "sub": "Safety in Chemical Process Industries",
+        "short": "Safety",
+        "sem": 5,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaYPuo4lyxEvxuonyNY6YkfV"
+    },
+    {
+        "sub": "Database Management Systems MI",
+        "short": "DBMS",
+        "sem": 5,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdabYblZsR64_seyQXABEe6OF"
+    },
+    {
+        "sub": "Industrial Process Biotechnology PE",
+        "short": "Biotech",
+        "sem": 5,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdabmmK8sHJl6Jn6GwbhAmG_s"
+    },
+    {
+        "sub": "Heat Transfer",
+        "short": "HT",
+        "sem": 5,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdabAjv1Dd4SpLxC9nwkXHOTC"
+    },
+    {
+        "sub": "Computational Techniques OE",
+        "short": "Comp Techniques",
+        "sem": 5,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdaZdDadd2RLOOsZQ63R9n2M5"
+    },
+    {
+        "sub": "Chemical Reaction Engineering 1",
+        "short": "CRE2",
+        "sem": 5,
+        "link": "https://www.youtube.com/playlist?list=PLw7oc1LzUdabp9fJCvO-Z5cyOt1MNRe0X"
+    }
+]

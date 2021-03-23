@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const gdrive = require('../gdrive');
+const gdrive = require('../../data/gdrive');
 
 module.exports = {
 	name: 'drive_list',

@@ -1,12 +1,12 @@
 const {google} = require('googleapis');
-const credentials = require('./credentials.json');
-const {root_folder_id} = require('./config.json');
 const scopes = ['https://www.googleapis.com/auth/drive'];
+const dotenv = require('dotenv');
+dotenv.config();
 
 let drive;
 
 async function gdriveInit() {
-	const auth = new google.auth.JWT(credentials.client_email, null, credentials.private_key, scopes);
+	const auth = new google.auth.JWT(process.env.client_email, null, process.env.private_key, scopes);
 	drive = google.drive({version: 'v3', auth});
 }
 
@@ -30,7 +30,7 @@ async function listFiles(folder_id) {
 async function searchFolder(query) {
 	try {
 		let results = await drive.files.list({
-			folderId: root_folder_id,
+			folderId: process.env.root_folder_id,
 			pageSize: 10,
 			fields: 'files(id, name, mimeType, webViewLink)',
 			q: `(mimeType='application/vnd.google-apps.folder') and (name contains '${query}')`,
