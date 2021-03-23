@@ -1,3 +1,12 @@
+const express = require('express');
+const app = express();
+const port = 3001;
+
+app.get('/', (req, res) => res.send('Psiva discord bot'));
+
+app.listen(port, () => console.log(`Listening at http://localhost:${port}`));
+
+// ================= START BOT CODE ===================
 const fs = require('fs');
 const gdrive = require('./data/gdrive');
 const dotenv = require('dotenv');
