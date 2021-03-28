@@ -12,6 +12,7 @@ async function gdriveInit() {
 
 async function listFiles(folder_id) {
 	try {
+		if(folder_id==null) return;
 		let files = await drive.files.list({
 			folderId: folder_id,
 			pageSize: 10,

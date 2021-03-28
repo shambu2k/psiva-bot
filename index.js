@@ -40,19 +40,8 @@ client.on('message', async (message) => {
 	const args = message.content.trim().split(' ');
 	const command = args.shift().toLowerCase();
 
-	if (args.length == 0) {
-		client.commands.get('poondi').execute(message, args);
-	} else if (args[0] === 'search') {
-		client.commands.get('drive_search').execute(message, args);
-	} else if (args[0] === 'list') {
-		client.commands.get('drive_list').execute(message, args);
-	} else if (args[0] === 'swag') {
-		client.commands.get('swag').execute(message, args);
-	} else if(args[0] === 'recording') {
-		client.commands.get('recording').execute(message, args);
-	} else {
-		client.commands.get('wrong').execute(message, args);
-	}
+	if(!client.commands.get(args[0]) && args.length!=0) client.commands.get('wrong').execute(message, args);
+	else client.commands.get(!args[0]?'poondi':args[0]).execute(message, args);
 });
 
 client.login(process.env.token);
