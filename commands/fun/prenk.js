@@ -7,7 +7,8 @@ module.exports = {
 	async execute(message, args) {
 		try {
 			if (message.member.voice.channel) {
-				message.channel.send(`!p ${prenks[Math.floor(Math.random() * prenks.length)]}`);
+				prenk_link = prenks[Math.floor(Math.random() * prenks.length)];
+				message.channel.send(`!p ${prenk_link.substring(0, prenk_link.length - 49)}`);
 			} else {
 				const embedMsg = new Discord.MessageEmbed()
 					.setTitle(`Join some voice channel man! `)
