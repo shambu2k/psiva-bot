@@ -8,7 +8,13 @@ module.exports = {
 		try {
 			let data = await gdrive.searchFolder(args[1]);
 			const embedMsg = new Discord.MessageEmbed()
-				.setTitle(`${args[1]?`Here are your search results for - ${args[1]}`:"Hellooo what is this? Tell me what to search man!! Type !psiva help to see valid commands"}`)
+				.setTitle(
+					`${
+						args[1]
+							? `Here are your search results for - ${args[1]}`
+							: 'Hellooo what is this? Tell me what to search man!! Type !psiva help to see valid commands'
+					}`
+				)
 				.setDescription(data)
 				.setColor('#ECC82C')
 				.setTimestamp();

@@ -18,7 +18,7 @@ client.commands = new Discord.Collection();
 
 const commandFolders = fs.readdirSync('./commands');
 for (const folder of commandFolders) {
-	const commandFiles = fs.readdirSync(`./commands/${folder}`).filter(file => file.endsWith('.js'));
+	const commandFiles = fs.readdirSync(`./commands/${folder}`).filter((file) => file.endsWith('.js'));
 	for (const file of commandFiles) {
 		const command = require(`./commands/${folder}/${file}`);
 		client.commands.set(command.name, command);
@@ -40,8 +40,8 @@ client.on('message', async (message) => {
 	const args = message.content.trim().split(' ');
 	const command = args.shift().toLowerCase();
 
-	if(!client.commands.get(args[0]) && args.length!=0) client.commands.get('wrong').execute(message, args);
-	else client.commands.get(!args[0]?'poondi':args[0]).execute(message, args);
+	if (!client.commands.get(args[0]) && args.length != 0) client.commands.get('wrong').execute(message, args);
+	else client.commands.get(!args[0] ? 'poondi' : args[0]).execute(message, args);
 });
 
 client.login(process.env.token);

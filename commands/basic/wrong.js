@@ -4,7 +4,7 @@ module.exports = {
 	name: 'wrong',
 	description: 'Wrong command pa! Get help',
 	execute(message, args) {
-		if(args[0]) args[0] = args[0].toLowerCase();
+		if (args[0]) args[0] = args[0].toLowerCase();
 		const title = args[0] != 'help' ? 'Hellooo, NO NO NO.. WRONG COMMAND!' : 'Refer the lab manual';
 		const embedMsg = new Discord.MessageEmbed()
 			.setColor('#ECC82C')
@@ -25,7 +25,7 @@ module.exports = {
 				},
 				{
 					name: '!psiva recording <course-name-here>',
-					value: 'Replace <course-name-here> with the course name to get its recordings'
+					value: 'Replace <course-name-here> with the course name to get its recordings',
 				}
 			)
 			.setTimestamp();

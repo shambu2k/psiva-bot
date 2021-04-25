@@ -5,10 +5,10 @@ module.exports = {
 	name: 'recording',
 	description: 'Gives youtube playlist of recordings of a course\nUsage - !psiva recording <course-name-here>',
 	async execute(message, args) {
-        let query = ""
-        for(let i = 1; i < args.length; i++){
-            query += args[i]+" "
-        }
+		let query = '';
+		for (let i = 1; i < args.length; i++) {
+			query += args[i] + ' ';
+		}
 		try {
 			let data = await recordings.searchRecordings(query);
 			const embedMsg = new Discord.MessageEmbed()
